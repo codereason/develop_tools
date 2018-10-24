@@ -48,4 +48,4 @@ conn.commit()
 
 # Close the database connection
 conn.close()
-print("exporting into database is done...")
+print("exporting from " + TABLE_PATH + " into database is done... table : "+ TABLE_NAME)
